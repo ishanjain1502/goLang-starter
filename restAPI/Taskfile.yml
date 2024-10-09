@@ -1,0 +1,7 @@
+version: "3"
+
+tasks:
+    run:
+        desc: Build the container image
+        cmds:
+        - go run ./internal/main.go
